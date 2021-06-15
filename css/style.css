@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen 
+
+and (min-device-width : 320px) 
+
+and (max-device-width : 480px) {
+
+/* Smartphones (portrait and landscape) ----------- */
+	.des1{width: 100%}
+	.description h2 .description p{width: 100%;}
+	.map{width: 100%;}
+
+
+}
+
+
+
+@media only screen 
+
+and (min-width : 321px) {
+
+/* Smartphones (landscape) ----------- */
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (max-width : 320px) {
+
+/* Smartphones (portrait) ----------- */
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (min-device-width : 768px) 
+
+and (max-device-width : 1024px) {
+
+/* iPads (portrait and landscape) ----------- */
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (min-device-width : 768px) 
+
+and (max-device-width : 1024px) 
+
+and (orientation : landscape) {
+
+/* iPads (landscape) ----------- */
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (min-device-width : 768px) 
+
+and (max-device-width : 1024px) 
+
+and (orientation : portrait) {
+
+/* iPads (portrait) ----------- */
+
+
+
+
+
+}
+
+
+
+@media only screen 
+
+and (min-width : 1200px) {
+
+/* Desktops and laptops ----------- */
+	.description h2{
+		padding-top: 15%;
+		padding-left: 3%;
+	}
+	.description p{
+		padding-left: 3%;
+	}
+	.description2 p{
+		padding-top: 130px;
+		padding-left: 30%;
+		padding-right: 3%;
+	}
+	.description3 h2{
+		padding-top: 18%;
+		padding-left: 3%;
+	}
+	.description3 p {
+	padding-left: 3%;
+}
+
+}
+
+
+
+@media only screen 
+
+and (min-width : 1700px) {
+
+/* Large screens ----------- */
+
+
+
+}
+
+
+
+@media
+
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+
+only screen and (min-device-pixel-ratio : 1.5) {
+
+/* iPhone 4 ----------- */
+
+
+
+}
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background:#CBE6EC;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#92CFDB; 
+}
+
+.main-logo{
+	margin-left: 20px;
+}
+.icon-bar{
+	background-color:#92CFDB;
+}
+
+.navigationbar{
+}
+
+.navbar{
+	background-color: white;
+	border-color: #747474;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
+
+.main-navigation li a {
+	padding: 25px;
+	color: black;
+}
+.main-navigation li a:hover {
+	transition-duration: 0.4s;
+	background-color: #92CFDB;
+}
+.active{
+	background-color: #92CFDB;
+}
+.main-banner{
+	margin-top: 70px;
+	width: 100%;
+}
+.catagorized{
+	margin-left: 40px;
+	height: 400px;
+	width: 200px;
+}
+.catagorized-heading{
+	margin-left: 30px;
+}
+.catagorized-text{
+	text-align: center;
+	color: #171616;
+	text-decoration: none;
+}
+.description p{
+	font-size: 16.2px;
+}
+.description2 h2{
+	
+}
+.description2 p{
+	font-size: 17px;
+}
+
+.description3 p{
+	font-size: 16.2px;
+}
+.why-us{
+	list-style: none;
+}
+.why-us li{
+	font-size: 18px;
+	color: #2366B5;
+}
+.glyphicon{
+	font-size: 35px;
+	margin-left:15px;
+}
+.footer{
+	background-color: #92CFDB;
+	height: 300px;
+}
+.footer-widget h4{
+	font-size: 20px;
+}
+.footer-widget ul li a{
+	font-size: 15px;
+	color: #1F7478;
+}
+.tiny-footer{
+	color: white;
+	background-color: #191717;
+	height: 70px;
+}
+.tiny-footer-text{
+	margin-top: 35px;
+}
